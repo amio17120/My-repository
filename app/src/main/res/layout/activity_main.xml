@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/Edit"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:hint="Enter the text"
+        />
+    <Button
+        android:id="@+id/Clickbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Click Here"
+        />
+    <TextView
+        android:id="@+id/clickedtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkbox"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugar"
+        />
+    <CheckBox
+        android:id="@+id/chk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chocolate"
+        />
+    <CheckBox
+        android:id="@+id/chk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caramel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sugar"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chocolate"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cartamel"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Jump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="sp"
+        android:text="Next"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
